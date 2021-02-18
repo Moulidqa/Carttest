@@ -85,6 +85,7 @@ public class Negativeflow extends BaseClass
 			
 		}
 			add.gotoCart().click();
+			Thread.sleep(2000);
 			add.placeOrder().click();
 			Loginpage log = new Loginpage(driver);
 			Assert.assertEquals("Place order", log.LoginText().getText());

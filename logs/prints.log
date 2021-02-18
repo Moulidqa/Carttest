@@ -1,3 +1,7 @@
-19:22:36.096 [main] INFO  Test.Demoblazetest - Demoblaze application is launched successfully
-19:22:57.721 [main] INFO  Test.Demoblazetest - Thank you for your purchase!
-19:22:57.721 [main] INFO  Test.Demoblazetest - PURCHASED SUCCESSFULLY
+22:17:32.264 [main] INFO  Test.Demoblazetest - Demoblaze application is launched successfully
+22:17:32.267 [main] INFO  resources.BaseClass - Chrome
+22:17:32.267 [main] INFO  resources.BaseClass - https://www.demoblaze.com/
+22:17:37.217 [main] INFO  Test.Negativeflow - Chrome is initialized successfully
+22:17:39.143 [main] INFO  Test.Negativeflow - Demoblaze application is launched successfully
+22:18:04.353 [main] INFO  Test.Demoblazetest - Thank you for your purchase!
+22:18:04.353 [main] INFO  Test.Demoblazetest - PURCHASED SUCCESSFULLY

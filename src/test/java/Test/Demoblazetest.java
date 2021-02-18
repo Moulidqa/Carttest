@@ -101,6 +101,7 @@ public class Demoblazetest extends BaseClass
 		driver.findElement(By.id("year")).sendKeys(Year);
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("button[onclick*='purchase']")).click();
+		Thread.sleep(2000);
 		String successtxt = driver.findElement(By.xpath("//h2[text()='Thank you for your purchase!']")).getText();
 		System.out.println(successtxt);
 		log.info(successtxt);
@@ -115,6 +116,7 @@ public class Demoblazetest extends BaseClass
 		}
 Assert.assertEquals(successtxt, "Thank you for your purchase!");
 driver.findElement(By.cssSelector("button[class*='confirm']")).click();
+Thread.sleep(2000);
 }
 	
 	@AfterTest()

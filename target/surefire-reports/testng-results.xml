@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" ignored="0" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63137" started-at="2021-02-18T19:20:10 IST" finished-at="2021-02-18T19:21:13 IST">
+  <suite name="Suite" duration-ms="64223" started-at="2021-02-18T22:17:21 IST" finished-at="2021-02-18T22:18:26 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="63137" started-at="2021-02-18T19:20:10 IST" finished-at="2021-02-18T19:21:13 IST">
+    <test name="Test" duration-ms="64223" started-at="2021-02-18T22:17:21 IST" finished-at="2021-02-18T22:18:26 IST">
       <class name="Test.Negativeflow">
-        <test-method status="PASS" signature="Applaunch()[pri:0, instance:Test.Negativeflow@67c33749]" name="Applaunch" is-config="true" duration-ms="7201" started-at="2021-02-18T19:20:18 IST" finished-at="2021-02-18T19:20:26 IST">
+        <test-method status="PASS" signature="Applaunch()[pri:0, instance:Test.Negativeflow@76c3e77a]" name="Applaunch" is-config="true" duration-ms="6906" started-at="2021-02-18T22:17:32 IST" finished-at="2021-02-18T22:17:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applaunch -->
-        <test-method status="FAIL" signature="AddingItemsintocart()[pri:0, instance:Test.Negativeflow@67c33749]" name="AddingItemsintocart" duration-ms="19362" started-at="2021-02-18T19:20:46 IST" finished-at="2021-02-18T19:21:06 IST">
+        <test-method status="FAIL" signature="AddingItemsintocart()[pri:0, instance:Test.Negativeflow@76c3e77a]" name="AddingItemsintocart" duration-ms="20252" started-at="2021-02-18T22:18:04 IST" finished-at="2021-02-18T22:18:24 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [] but found [Place order]]]>
@@ -62,13 +62,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddingItemsintocart -->
-        <test-method status="SKIP" signature="Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@67c33749]" name="Carddetails" duration-ms="0" started-at="2021-02-18T19:21:07 IST" data-provider="getData" depends-on-methods="Test.Negativeflow.AddingItemsintocart" finished-at="2021-02-18T19:21:07 IST">
+        <test-method status="SKIP" signature="Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@76c3e77a]" name="Carddetails" duration-ms="0" started-at="2021-02-18T22:18:25 IST" data-provider="getData" depends-on-methods="Test.Negativeflow.AddingItemsintocart" finished-at="2021-02-18T22:18:25 IST">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method Negativeflow.Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@67c33749] depends on not successfully finished methods]]>
+              <![CDATA[Method Negativeflow.Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@76c3e77a] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Negativeflow.Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@67c33749] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method Negativeflow.Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@76c3e77a] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -98,25 +98,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Carddetails -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test.Negativeflow@67c33749]" name="closebrowser" is-config="true" duration-ms="4732" started-at="2021-02-18T19:21:08 IST" finished-at="2021-02-18T19:21:13 IST">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test.Negativeflow@76c3e77a]" name="closebrowser" is-config="true" duration-ms="275" started-at="2021-02-18T22:18:25 IST" finished-at="2021-02-18T22:18:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- Test.Negativeflow -->
       <class name="Test.Demoblazetest">
-        <test-method status="PASS" signature="Applaunch()[pri:0, instance:Test.Demoblazetest@78123e82]" name="Applaunch" is-config="true" duration-ms="8798" started-at="2021-02-18T19:20:10 IST" finished-at="2021-02-18T19:20:18 IST">
+        <test-method status="PASS" signature="Applaunch()[pri:0, instance:Test.Demoblazetest@57d7f8ca]" name="Applaunch" is-config="true" duration-ms="10472" started-at="2021-02-18T22:17:21 IST" finished-at="2021-02-18T22:17:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applaunch -->
-        <test-method status="PASS" signature="loginscenario()[pri:0, instance:Test.Demoblazetest@78123e82]" name="loginscenario" duration-ms="1044" started-at="2021-02-18T19:20:26 IST" finished-at="2021-02-18T19:20:27 IST">
+        <test-method status="PASS" signature="loginscenario()[pri:0, instance:Test.Demoblazetest@57d7f8ca]" name="loginscenario" duration-ms="2489" started-at="2021-02-18T22:17:39 IST" finished-at="2021-02-18T22:17:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginscenario -->
-        <test-method status="PASS" signature="AddingItemsintocart()[pri:0, instance:Test.Demoblazetest@78123e82]" name="AddingItemsintocart" duration-ms="17983" started-at="2021-02-18T19:20:27 IST" depends-on-methods="Test.Demoblazetest.loginscenario" finished-at="2021-02-18T19:20:45 IST">
+        <test-method status="PASS" signature="AddingItemsintocart()[pri:0, instance:Test.Demoblazetest@57d7f8ca]" name="AddingItemsintocart" duration-ms="19304" started-at="2021-02-18T22:17:41 IST" depends-on-methods="Test.Demoblazetest.loginscenario" finished-at="2021-02-18T22:18:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddingItemsintocart -->
-        <test-method status="PASS" signature="Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Demoblazetest@78123e82]" name="Carddetails" duration-ms="1130" started-at="2021-02-18T19:20:45 IST" data-provider="getData" depends-on-methods="Test.Demoblazetest.AddingItemsintocart" finished-at="2021-02-18T19:20:46 IST">
+        <test-method status="PASS" signature="Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Demoblazetest@57d7f8ca]" name="Carddetails" duration-ms="3393" started-at="2021-02-18T22:18:01 IST" data-provider="getData" depends-on-methods="Test.Demoblazetest.AddingItemsintocart" finished-at="2021-02-18T22:18:04 IST">
           <params>
             <param index="0">
               <value>
@@ -152,7 +152,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Carddetails -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test.Demoblazetest@78123e82]" name="closebrowser" is-config="true" duration-ms="1257" started-at="2021-02-18T19:21:07 IST" finished-at="2021-02-18T19:21:08 IST">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test.Demoblazetest@57d7f8ca]" name="closebrowser" is-config="true" duration-ms="433" started-at="2021-02-18T22:18:25 IST" finished-at="2021-02-18T22:18:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->

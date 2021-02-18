@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 66.087 s <<< FAILURE! - in TestSuite
-Test.Negativeflow.AddingItemsintocart  Time elapsed: 20.559 s  <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 66.693 s <<< FAILURE! - in TestSuite
+Test.Negativeflow.AddingItemsintocart  Time elapsed: 20.82 s  <<< FAILURE!
 java.lang.AssertionError: expected [] but found [Place order]
 	at Test.Negativeflow.AddingItemsintocart(Negativeflow.java:90)
 

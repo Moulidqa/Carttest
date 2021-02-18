@@ -52,6 +52,7 @@ public class Demoblazetest extends BaseClass
 		Loginpage log = new Loginpage(driver);
 		
 		log.Loginclick().click();
+		Thread.sleep(2000);
 		log.Username().sendKeys("Test90");
 		log.Password().sendKeys("test90");
 		log.Login().click();
@@ -98,6 +99,7 @@ public class Demoblazetest extends BaseClass
 		driver.findElement(By.id("card")).sendKeys(creditcard);
 		driver.findElement(By.id("month")).sendKeys(Month);
 		driver.findElement(By.id("year")).sendKeys(Year);
+		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("button[onclick*='purchase']")).click();
 		String successtxt = driver.findElement(By.xpath("//h2[text()='Thank you for your purchase!']")).getText();
 		System.out.println(successtxt);

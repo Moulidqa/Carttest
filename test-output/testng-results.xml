@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33501" started-at="2021-02-18T13:52:24Z" finished-at="2021-02-18T13:52:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33501" started-at="2021-02-18T13:52:24Z" finished-at="2021-02-18T13:52:58Z">
+      <class name="Test.Demoblazetest">
+        <test-method status="PASS" signature="Applaunch()[pri:0, instance:Test.Demoblazetest@41a2befb]" name="Applaunch" is-config="true" duration-ms="11179" started-at="2021-02-18T13:52:24Z" finished-at="2021-02-18T13:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applaunch -->
+        <test-method status="PASS" signature="loginscenario()[pri:0, instance:Test.Demoblazetest@41a2befb]" name="loginscenario" duration-ms="737" started-at="2021-02-18T13:52:36Z" finished-at="2021-02-18T13:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginscenario -->
+        <test-method status="PASS" signature="AddingItemsintocart()[pri:0, instance:Test.Demoblazetest@41a2befb]" name="AddingItemsintocart" duration-ms="19918" started-at="2021-02-18T13:52:36Z" depends-on-methods="Test.Demoblazetest.loginscenario" finished-at="2021-02-18T13:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingItemsintocart -->
+        <test-method status="PASS" signature="Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Demoblazetest@41a2befb]" name="Carddetails" duration-ms="979" started-at="2021-02-18T13:52:56Z" data-provider="getData" depends-on-methods="Test.Demoblazetest.AddingItemsintocart" finished-at="2021-02-18T13:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mouli]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4811 1111 1111 1114]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Dec-24]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2028]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Carddetails -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test.Demoblazetest@41a2befb]" name="closebrowser" is-config="true" duration-ms="638" started-at="2021-02-18T13:52:57Z" finished-at="2021-02-18T13:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Test.Demoblazetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

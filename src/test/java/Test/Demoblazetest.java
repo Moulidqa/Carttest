@@ -53,8 +53,8 @@ public class Demoblazetest extends BaseClass
 		
 		log.Loginclick().click();
 		Thread.sleep(2000);
-		log.Username().sendKeys("Test90");
-		log.Password().sendKeys("test90");
+		log.Username().sendKeys("Test92");
+		log.Password().sendKeys("test92");
 		log.Login().click();
 		}
 	
@@ -76,7 +76,7 @@ public class Demoblazetest extends BaseClass
 			Thread.sleep(2000);
 			driver.switchTo().alert().accept();
 			e++;
-			if(e==2)
+			if(e==4)
 			{
 				break;	
 			}

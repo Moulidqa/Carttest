@@ -4,9 +4,15 @@
 <listeners>
 <listener class-name="Test.Listeners"/>
 </listeners>
-  <test thread-count="5" name="Test">
+
+  <test name="Positive end to end flow">
     <classes>
      <class name="Test.Demoblazetest"/>
+    </classes>  
+  </test> <!-- Test -->
+  
+  <test name="Negativeflow">
+    <classes>
       <class name="Test.Negativeflow"/>
     </classes>
   </test> <!-- Test -->

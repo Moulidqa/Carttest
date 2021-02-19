@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Negativeflow(failed)">
     <classes>
-      <class name="Test.Demoblazetest">
+      <class name="Test.Negativeflow">
         <methods>
-          <include name="Carddetails"/>
-          <include name="closebrowser"/>
-          <include name="AddingItemsintocart"/>
           <include name="Applaunch"/>
-          <include name="loginscenario"/>
+          <include name="closebrowser"/>
+          <include name="Carddetails"/>
+          <include name="AddingItemsintocart"/>
         </methods>
-      </class> <!-- Test.Demoblazetest -->
+      </class> <!-- Test.Negativeflow -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Negativeflow(failed) -->
+</suite> <!-- Failed suite [Suite] -->

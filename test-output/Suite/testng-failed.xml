@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="Test.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Negativeflow(failed)">
     <classes>
       <class name="Test.Negativeflow">
         <methods>
@@ -15,5 +15,5 @@
         </methods>
       </class> <!-- Test.Negativeflow -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Negativeflow(failed) -->
 </suite> <!-- Failed suite [Suite] -->

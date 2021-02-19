@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="1" failed="1" ignored="0" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33501" started-at="2021-02-18T13:52:24Z" finished-at="2021-02-18T13:52:58Z">
+  <suite name="Suite" duration-ms="94761" started-at="2021-02-19T04:53:38Z" finished-at="2021-02-19T04:55:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33501" started-at="2021-02-18T13:52:24Z" finished-at="2021-02-18T13:52:58Z">
+    <test name="Positive end to end flow" duration-ms="59661" started-at="2021-02-19T04:53:38Z" finished-at="2021-02-19T04:54:38Z">
       <class name="Test.Demoblazetest">
-        <test-method status="PASS" signature="Applaunch()[pri:0, instance:Test.Demoblazetest@41a2befb]" name="Applaunch" is-config="true" duration-ms="11179" started-at="2021-02-18T13:52:24Z" finished-at="2021-02-18T13:52:36Z">
+        <test-method status="PASS" signature="Applaunch()[pri:0, instance:Test.Demoblazetest@3232a28a]" name="Applaunch" is-config="true" duration-ms="11848" started-at="2021-02-19T04:53:38Z" finished-at="2021-02-19T04:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Applaunch -->
-        <test-method status="PASS" signature="loginscenario()[pri:0, instance:Test.Demoblazetest@41a2befb]" name="loginscenario" duration-ms="737" started-at="2021-02-18T13:52:36Z" finished-at="2021-02-18T13:52:36Z">
+        <test-method status="PASS" signature="loginscenario()[pri:0, instance:Test.Demoblazetest@3232a28a]" name="loginscenario" duration-ms="2595" started-at="2021-02-19T04:53:50Z" finished-at="2021-02-19T04:53:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginscenario -->
-        <test-method status="PASS" signature="AddingItemsintocart()[pri:0, instance:Test.Demoblazetest@41a2befb]" name="AddingItemsintocart" duration-ms="19918" started-at="2021-02-18T13:52:36Z" depends-on-methods="Test.Demoblazetest.loginscenario" finished-at="2021-02-18T13:52:56Z">
+        <test-method status="PASS" signature="AddingItemsintocart()[pri:0, instance:Test.Demoblazetest@3232a28a]" name="AddingItemsintocart" duration-ms="33412" started-at="2021-02-19T04:53:53Z" depends-on-methods="Test.Demoblazetest.loginscenario" finished-at="2021-02-19T04:54:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddingItemsintocart -->
-        <test-method status="PASS" signature="Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Demoblazetest@41a2befb]" name="Carddetails" duration-ms="979" started-at="2021-02-18T13:52:56Z" data-provider="getData" depends-on-methods="Test.Demoblazetest.AddingItemsintocart" finished-at="2021-02-18T13:52:57Z">
+        <test-method status="PASS" signature="Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Demoblazetest@3232a28a]" name="Carddetails" duration-ms="9707" started-at="2021-02-19T04:54:26Z" data-provider="getData" depends-on-methods="Test.Demoblazetest.AddingItemsintocart" finished-at="2021-02-19T04:54:36Z">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,99 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Carddetails -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test.Demoblazetest@41a2befb]" name="closebrowser" is-config="true" duration-ms="638" started-at="2021-02-18T13:52:57Z" finished-at="2021-02-18T13:52:58Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test.Demoblazetest@3232a28a]" name="closebrowser" is-config="true" duration-ms="1999" started-at="2021-02-19T04:54:36Z" finished-at="2021-02-19T04:54:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- Test.Demoblazetest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Positive end to end flow -->
+    <test name="Negativeflow" duration-ms="33873" started-at="2021-02-19T04:54:39Z" finished-at="2021-02-19T04:55:13Z">
+      <class name="Test.Negativeflow">
+        <test-method status="PASS" signature="Applaunch()[pri:0, instance:Test.Negativeflow@5ba3f27a]" name="Applaunch" is-config="true" duration-ms="11108" started-at="2021-02-19T04:54:39Z" finished-at="2021-02-19T04:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applaunch -->
+        <test-method status="FAIL" signature="AddingItemsintocart()[pri:0, instance:Test.Negativeflow@5ba3f27a]" name="AddingItemsintocart" duration-ms="20031" started-at="2021-02-19T04:54:50Z" finished-at="2021-02-19T04:55:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Place order]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Place order]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Test.Negativeflow.AddingItemsintocart(Negativeflow.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingItemsintocart -->
+        <test-method status="SKIP" signature="Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@5ba3f27a]" name="Carddetails" duration-ms="2" started-at="2021-02-19T04:55:11Z" data-provider="getData" depends-on-methods="Test.Negativeflow.AddingItemsintocart" finished-at="2021-02-19T04:55:11Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Negativeflow.Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@5ba3f27a] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Negativeflow.Carddetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Negativeflow@5ba3f27a] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Carddetails -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test.Negativeflow@5ba3f27a]" name="closebrowser" is-config="true" duration-ms="2106" started-at="2021-02-19T04:55:11Z" finished-at="2021-02-19T04:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Test.Negativeflow -->
+    </test> <!-- Negativeflow -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -15,4 +15,4 @@
 
 # NOTE: If you run from your local machine pls make sure the changes of paths **For ex**:C:\Users\Name\TestMavenProject
 
-# For Cross browser testing If you find the data.properties for ex:C:\Users\Moulitrellis\TestMavenProject\src\main\java\resources\data.properties under this file if yo change the browser value chrome to mozilla then tests should run in firefox browser.
+# For Cross browser testing If you find the data.properties for ex:C:\Users\Moulitrellis\TestMavenProject\src\main\java\resources\data.properties under this file if you change the browser value from chrome to Firefox then tests should automatically run in firefox browser.
